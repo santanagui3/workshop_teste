@@ -11,7 +11,7 @@ body{
     margin: auto;
 }
 .header{ 
-    background-color: rgb(78, 155, 243);
+    background-color: #48c5ce;
     text-align: center;
     color:white;
     padding: 10px;
@@ -20,5 +20,55 @@ body{
 font-size: 26px;
 }
 section{
+    padding: 20px;
+    background-image: url(../imagens/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float:right;
+}
+h2{ font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
     color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #202120;
+    padding: 40px;
+    text-align: center;
+}
+.picture{
+    width: 160px;
+}
+.description{
+    display: inline-block;
+    color: white;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+
+}
+.description h3{
+    font-size: 26px;
 }
